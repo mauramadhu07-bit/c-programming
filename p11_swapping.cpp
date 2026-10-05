@@ -1,4 +1,4 @@
-  #include<iostream>
+ #include<iostream>
         using namespace std;
         void swapref(int &a,int &b) {int t=a;a=b;b=t;}
         void swapptr(int *a,int*b) {int t=*a;*a=*b;*b=t;}
