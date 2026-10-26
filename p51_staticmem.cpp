@@ -10,6 +10,7 @@ class widget{
 };
 int widget::count=0;
 int main()
+
 {
     widget a,b;
     cout<<"alive="<<widget::alive()<<endl;
